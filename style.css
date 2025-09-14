@@ -1,0 +1,313 @@
+/* font used */
+.jost{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+/* to make the margin zero */
+*{
+    margin: 0%;
+}
+
+/* css for the top part (the submitted part) */
+#top{
+    background-color: rgb(207, 23, 23);
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* css for the bottom part (here lies the sources) */
+#bottom{
+    background-color: rgb(207, 23, 23);
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#sources{
+    color: rgb(255, 255, 255);
+}
+
+/* css for the bg of the navbar*/
+#navbar {
+    background-color: rgb(255, 186, 49);
+    margin: 0;
+}
+
+/* css for the logo*/
+#logo{
+    border-radius: 15px; 
+    width: 100px; 
+    height: 100px;
+    margin-left: 90px;
+}
+
+/* css for the logo */
+#title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(60, 152, 21);
+    margin-right: 985px;
+    text-align: center;
+}
+
+/* css for the navigation links*/
+
+.navlinks{
+    text-align: right;
+    position: absolute;
+    top: 120px;
+    right: 45px;
+    color: rgb(75, 165, 37);
+    font-size: 160%;
+}
+
+/* css for the navlinks specifically for the text*/
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+/* to make the navlinks be underlined when hovered*/
+.links:hover {
+    text-decoration: underline;
+}
+
+/* css for the whole page*/
+.contents{
+    border: 7px solid rgb(207, 23, 23);
+    background-color: rgb(243, 85, 85);
+}
+
+/* GOAL PART */
+.goal{
+    background-color: rgb(243, 85, 85);
+}
+
+.header1{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 45px;
+    width: 44%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    float: left;
+}
+
+.goalul{
+    font-size: 140%;
+    width: 60%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    margin-left: 23px;
+    float: left;
+}
+
+li::marker {
+      color: rgb(207, 23, 23);
+    }
+
+li{
+    padding: 7px;
+}
+
+#sun{
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+}
+
+#heart{
+    width: 53px;
+    height: 53px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+/* PROBLEMS PART */
+.problems{
+    background-color: rgb(225, 76, 76);
+    overflow: auto;
+}
+
+.header2{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 380px;
+    width: 38%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+}
+
+.problem1{
+    font-size: 140%;
+    width: 50%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    margin-left: 23px;
+    padding: 15px;
+    float: left;
+}
+
+#table{
+    margin-left: 30px;
+    margin-top: 31px;
+    width: 500px;
+    height: 400px;
+    clear: left;
+}
+
+.problem2{
+    float: left;
+    font-size: 140%;
+    width: 57%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    margin-left: 23px;
+    padding: 15px;
+}
+
+#img1{
+    width: 430px;
+    height: 300px;  
+    margin-left: 25px;
+    margin-top: 13px;
+    clear: left;
+}
+
+/* SOLUTIONS PART */
+.solutions{
+    background-color: rgb(243, 85, 85);
+}
+
+.header3{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 345px;
+    width: 46%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+}
+
+.solution{
+    font-size: 140%;
+    width: 58%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    margin-left: 23px;
+    padding: 15px;
+    float: left;
+}
+
+#img2{
+    width: 400px;
+    height: 234px;
+    margin: 8px;
+    margin-left: 40px;
+}
+
+
+#img3{
+    width: 400px;
+    height: 234px;
+    margin: 8px;
+    margin-left: 40px;
+}
+
+#img4{
+    width: 400px;
+    height: 234px;
+    margin: 8px;
+    margin-left: 40px;
+}
+
+/* HOW WE COME IN PART */
+.wecomein{
+    background-color: rgb(225, 76, 76);
+}
+
+.header4{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 436px;
+    width: 32%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+}
+
+.wecomeintext{
+    font-size: 140%;
+    width: 59%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    margin-right: 25px;
+    margin-top: 2px;
+    padding: 15px;
+    float: right;
+}
+
+#uspic{
+    width: 400px;
+    height: 370px;
+    margin-left: 25px;
+    margin-bottom: 17px;
+
+}
+
+/* CALL TO ACTION CALL TO ACTION */
+.calltoaction{
+    background-color: rgb(255, 186, 49);
+}
+
+.header5{
+    background-color: rgb(255, 89, 89);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 436px;
+    width: 32%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(70, 152, 34);
+}
+
+.ctatext{
+    font-size: 140%;
+    width: 45%;
+    color:rgb(75, 165, 37);
+    margin-left: 50px;
+    margin-top: 80px;
+    float: left;
+}
+
+#ctaimg{
+    margin-left: 40px;
+}
+
+#world{
+    width: 20px;
+    height: 20px;
+}

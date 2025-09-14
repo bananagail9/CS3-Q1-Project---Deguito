@@ -1,0 +1,397 @@
+/* font used */
+.jost{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+/* to make the margin zero */
+*{
+    margin: 0%;
+}
+
+/* css for the top part (the submitted part) */
+#top{
+    background-color: rgb(207, 23, 23);
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* css for the bottom part (here lies the sources) */
+#bottom{
+    background-color: rgb(207, 23, 23);
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#sources{
+    color: rgb(255, 255, 255);
+}
+
+/* css for the bg of the navbar*/
+#navbar {
+    background-color: rgb(255, 186, 49);
+    margin: 0;
+}
+
+/* css for the logo*/
+#logo{
+    border-radius: 15px; 
+    width: 100px; 
+    height: 100px;
+    margin-left: 90px;
+}
+
+/* css for the logo */
+#title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(60, 152, 21);
+    margin-right: 985px;
+    text-align: center;
+}
+
+/* css for the navigation links*/
+
+.navlinks{
+    text-align: right;
+    position: absolute;
+    top: 120px;
+    right: 45px;
+    color: rgb(75, 165, 37);
+    font-size: 160%;
+}
+
+/* css for the navlinks specifically for the text*/
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+/* to make the navlinks be underlined when hovered*/
+.links:hover {
+    text-decoration: underline;
+}
+
+/* css for the whole page*/
+.contents{
+    border: 7px solid rgb(207, 23, 23);
+    background-color: rgb(243, 85, 85);
+}
+
+/* WHO AM I? PART */
+.whome{
+    background-color: rgb(243, 85, 85);
+}
+
+.header1{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 490px;
+    width: 21%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    float: left;
+}
+
+.factsabouther{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 170px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    width: 15%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    float: left;
+}
+
+#smilepic{
+    width: 66px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 33px;
+}
+
+.meul{
+    font-size: 90%;
+    width: 22%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    margin-right: 23px;
+    margin-left: 23px;
+    float: right;
+}
+
+li::marker {
+      color: rgb(207, 23, 23);
+    }
+
+li{
+    padding: 7px;
+}
+
+#mepic{
+    width: 295px;
+    height: 278x;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 2px;
+}
+
+.whometext{
+    font-size: 140%;
+    width: 40%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    padding: 15px;
+    float: right;
+    margin-top: 33px;
+}
+
+/* BACKGROUND OF THIS ADVOCACY PART */
+.bgofus{
+    background-color: rgb(225, 76, 76);
+}
+
+.header2{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 430px;
+    width: 30%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+}
+
+#mepic2{
+    width: 200px;
+    height: 280px;
+    margin-top: 23px;
+}
+
+#uspic1{
+    width: 280;
+    height: 280px;
+    margin-left: 23px;
+}
+
+#uspic2{
+    width: 220px;
+    height: 270px;
+    margin-right: 23px;
+    margin-left: 21px;
+    float: right;
+    margin-top: 23px;
+}
+
+.bgofustext1{
+    font-size: 105%;
+    width: 39%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    padding: 15px;
+    float: right;
+}
+
+.bgofustext2{
+    font-size: 140%;
+    width: 40%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    padding: 15px;
+    margin-top: 33px;
+    margin-right: 23px;
+    float: right;
+}
+
+.bgofustext3{
+    font-size: 120%;
+    width: 90%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    padding: 15px;
+    margin-top: 88px;
+    margin-left: 44px;
+}
+
+#schoolpic{
+    width: 630px;
+    margin-left: 23px;
+    margin-top: 33px;
+}
+
+.heart{
+    width: 70px;
+    height: 70px;
+    margin-left: 18px;
+    margin-top: 6px;
+    float: left;
+}
+
+/* SUGGESTIONS PART */
+
+.suggestions{
+    background-color: rgb(243, 85, 85);
+}
+
+.header3{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 430px;
+    width: 30%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+}
+
+.orgsrechead{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 13%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    float: left;
+    margin-left: 73px;
+}
+
+.askhelphead{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 17%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    float: left;
+    margin-left: 100px;
+}
+
+.takecarebabeshead{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 12%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    float: left;
+    margin-left: 100px;
+}
+
+.recommendations{
+    width: 850px;
+    height: 300px;
+    float: left;
+    margin-left: 23px;
+}
+
+.note{
+    font-size: 140%;
+    width: 19%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    padding: 15px;
+    margin-left: 950px;
+}
+
+/* WHERE TO CONTACT US PART */
+
+.wheretocontactus{
+    background-color: rgb(225, 76, 76);
+}
+
+.header4{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 430px;
+    width: 30%;
+    text-align: center;
+    border:4.5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+}
+
+.centerhead{
+    background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 28%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    margin-left: 105px;
+    float: left;
+}
+
+.socmedshead{
+     background-color: rgb(255, 186, 49);
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 14%;
+    text-align: center;
+    border:5px solid rgb(207, 23, 23);
+    color:rgb(75, 165, 37);
+    margin-left: 945px;
+}
+
+.locpic{
+    width: 450px;
+    height: 275px;
+    margin-left: 60px;
+}
+
+.callmepic{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.location{
+    font-size: 140%;
+    width: 40%;
+    color:rgb(75, 165, 37);
+    background-color: rgb(255, 186, 49);
+    border:4.5px solid rgb(207, 23, 23);
+    padding: 9px;
+    text-align: center;
+    margin-top: 17px;
+    margin-left: 23px;
+}
+
+#socmed{
+    width: 350px;
+    height: 365px;
+    float: right;
+    margin-right: 23px;
+}
